@@ -1,0 +1,16 @@
+
+<open-street-map
+    inline-template
+    :map="map"
+    width="100%"
+    height="100%"
+    :zoom="13.25"
+    :bounds="true"
+    :cluster="true"
+    :center="center"
+    id="listing-map"
+    @change="setMap"
+    set_center="true"
+    :markers="markers"
+    :zoom_control="false"
+    access_token="
